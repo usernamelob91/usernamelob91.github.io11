@@ -1,0 +1,250 @@
+
+
+
+*   {
+    
+    
+}
+
+@font-face {
+    font-family: 'Nexa Script Bold';
+    src: url('../fonts/bold_next/NexaScript-Bold.eot');
+    src: url('../fonts/bold_next/NexaScript-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bold_next/NexaScript-Bold.woff') format('woff'),
+    url('../fonts/bold_next/NexaScript-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moskva Regular';
+    src: url('../fonts/moscow/1Antuanetta.eot');
+    src: url('../fonts/moscow/1Antuanetta.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/moscow/1Antuanetta.woff') format('woff'),
+    url('../fonts/moscow/1Antuanetta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+
+    height: 100px;
+    background-image:  linear-gradient(to right, #e4924a, #e97b6c);
+    
+}
+
+header {
+    position: relative;
+    min-height: 160px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px; 
+    margin: 0;
+    margin: 10px 10px;
+    list-style: none;
+}
+
+.menu .menu_link {
+    margin: 20px 20px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: 'Moskva Regular';
+    transition: 0.6s;
+    
+}
+
+.menu .menu_link1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Moskva Regular';
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.menu .menu_item {
+   /* margin: 10px 10px; */
+}
+.menu .menu_item :hover {
+    border: 1px solid #f8dbc0;
+    padding: 8px;
+    
+    border-radius: 10px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background-color: rgba(231, 135, 45, 0.3);
+}
+
+/* .subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+
+} */
+
+.subheader .subheader_call {
+    display: block;
+    margin-top: 14px;
+    max-width: 100%;
+    font-size: 26px;
+    color: rgb(218, 137, 103);
+    font-weight: 700;
+    font-family: 'Moskva Regular';
+
+}
+
+.subheader .subheader_phone {
+
+    color: rgb(218, 137, 103);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Moskva Regular';
+
+}
+
+.subheader .subheader_offical {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    z-index: 1;
+    font-family: 'Moskva Regular';
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    margin-right: 10px;
+    width: 180px;
+    height: 70px;
+    box-shadow: inset 0 -3px rbga(0, 0, 0 0.12);
+    border: none;
+    background-image: linear-gradient(to right, #e4924a, #e97b6c);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: 'Moskva Regular';
+    line-height: 1;
+}
+
+
+
+.promo { 
+    /* background: url('../img/bgg.jpg') center center/cover no-repeat; */
+    min-height: 600px;
+    padding: 10px 0 10px 0;
+    position: relative;
+    padding: 60px;
+}
+
+.promo .promo_img {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    margin-top: 60px;
+    left: -500px;
+
+}
+
+.promo .promo_img2 {
+    position: absolute;
+    width: 258px;
+  right: 0px;
+top: 50px;
+  
+}
+
+
+.promo .promo_des .promo_100 {
+    
+    color: #e97b6c;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 180px;
+    font-family: 'Moskva Regular';
+}
+
+.promo .promo_des .promo_200{
+    position: absolute;
+    color: #ffffff;
+    font-size: 160px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+ margin-left: -70px;
+}
+
+
+.promo .promo_suprime{
+    display: flex;
+    margin-top: 30px;
+    /* margin-left: 5px; */
+    justify-content: center;
+    align-items:center;
+    /* border: 2px solid #f8dbc0;
+    border-radius: 5px solid; */
+    overflow: hidden;
+    
+    
+}
+
+
+.promo .promo_suprime .promo_img3{
+    display: flex;
+    /* margin-top: 30px; */
+    /* margin-right: 10px; */
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    text-align: center;
+    border-radius: 7.5px;
+    transition: 0.8s;
+}
+.promo .promo_suprime .promo_img3:hover {
+    
+    transform: scale(1.03);
+    
+    
+}
+
+.promo .promo_suprime .promo_link{
+    text-align: center;
+    color: #e97b6c;
+    border: 2px solid #f8dbc0;
+    border-radius: 10px;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Moskva Regular';
+    font-size: 20px;
+
+}
+.promo .promo_descr2 {
+    min-width: 500px;
+    }
+
+footer {
+    height: 200px;
+}
+
+footer .footer_img {
+    height: 700px;
+    width: 1425px;
+}
+
+

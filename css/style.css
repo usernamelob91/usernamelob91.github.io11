@@ -111,7 +111,14 @@
   }
 
 .logo .logo_basket {
-    font-size: 10px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.logo .logo_basket:hover {
+background: url(../img/add-to-cart.png);
 }
 
 .carousel {
@@ -166,24 +173,84 @@ left: -53px;
 }
   
 .catalog .catalog__tab {
-    /* width: 200px; */
+
     height: 50px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin: 0 26px;
     cursor: pointer;
+    color: #333333;
+    transition: 0.5s all;
 }
 
 .catalog__tab:hover { 
     
-    color: #333333;
+    color: #290101; 
     text-decoration: underline;
-    text-shadow: #333333;
+    
       
 }
  
+.categories {
+position: relative;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width: 1310px;
+margin: 0 auto;
+align-items: auto;
+} 
 
+ .categories .categories__item {
+    width: 420px;
+    min-height: 440px;
+    border: 2px solid #333333;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}  
+
+.categories .categories_img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 420px;
+    border-radius: 8px;
+    transition: 0.7s all;
+}  
+
+.categories .categories_img:hover {
+transform: scale(1.1);
+transition: 0.5s all;
+}
+
+
+.categories .categories_subtitle {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: -360px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: 'Moskva Regular';
+    font-size: 22px;
+}  
+
+.categories .categories_button {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Moskva Regular';
+}  
 
 
 
